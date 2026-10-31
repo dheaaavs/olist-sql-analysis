@@ -85,20 +85,6 @@ Karena 97% pelanggan hanya membeli sekali, skor frekuensi hampir seragam, sehing
 - Segmen RFM, terutama *At Risk*, adalah perkiraan berbasis aturan buatan sendiri.
 - Query cohort retention (bagian 6.2 pada file SQL) tersedia, tetapi hasilnya belum dianalisis di README ini.
 
-## Struktur Repository
-
-```
-├── olist_sql_analysis_sqlite.sql   # seluruh query, dikelompokkan per bagian
-├── screenshots/                    # hasil tiap query
-└── README.md
-```
-
-## Cara Menjalankan
-
-1. Download `olist.sqlite` dari Kaggle (lihat Sumber Data). File database **tidak** disertakan di repository ini.
-2. Buka dengan [DB Browser for SQLite](https://sqlitebrowser.org/) (Open Database).
-3. Buka tab **Execute SQL**, tempel query dari `olist_sql_analysis_sqlite.sql` satu per satu, lalu jalankan.
-
 ## Sumber Data
 
 - Olist Brazilian E-Commerce Public Dataset (Kaggle): https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
